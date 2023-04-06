@@ -1,0 +1,235 @@
+@charset "UTF-8" ;
+
+/* A simple style sheet */
+
+
+
+
+
+
+.template{
+    text-align: center;
+    font-size: 40px;
+    position:absolute;
+    font-family:sans-serif;
+    font-style:italic;
+    font-weight: bold;
+    
+    
+}
+
+.template.t1{
+    margin-bottom: -83px;
+    margin-left: 5px;
+    color:rgba(166, 247, 253, 0.918);
+    mix-blend-mode: lighten;
+    animation: move-body-t1 0.5s infinite;
+    animation-delay:0.2s
+    
+        
+    }
+
+
+  
+ 
+.template.t2{
+    margin-left: -5px;
+    color:rgb(224, 67, 211);
+    animation: move-body-t2 0.5s infinite;
+
+
+}  
+
+@keyframes move-body-t1
+{
+    from{
+        margin-left:5px;
+    }
+    to {
+        margin-left: 0px;
+    }  
+}
+
+@keyframes move-body-t2
+{
+    from{
+        margin-left:-5px;
+    }
+    to {
+        margin-left: 0px;
+    }  
+}
+
+
+    
+
+.template.t3{
+    margin-bottom: -83px;
+    margin-left: 5px;
+    color:rgb(118, 38, 134);
+    mix-blend-mode: lighten;
+    animation: move-body-t1 0.5s infinite;
+    animation-delay:0.2s
+    
+        
+    }
+
+
+  
+ 
+.template.t4{
+    margin-left: -5px;
+    color:rgba(166, 247, 253, 0.918);
+    animation: move-body-t2 0.5s infinite;
+
+
+}  
+
+@keyframes move-body-t1
+{
+    from{
+        margin-left:5px;
+    }
+    to {
+        margin-left: 0px;
+    }  
+}
+
+@keyframes move-body-t2
+{
+    from{
+        margin-left:-5px;
+    }
+    to {
+        margin-left: 0px;
+    }  
+}
+
+
+
+
+
+@keyframes fade-in {  
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}  
+
+
+body {
+      background-color: black;
+      background-image: url("../resources/images/background3.jpg" ) ;
+      background-size: cover;
+      
+      
+      }
+     
+.word{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height:30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    animation:fade-in 0.2s;
+    animation-duration: 1s;
+}
+
+.word.t1{
+    color: white;
+}
+.word.t2{
+    color: rgb(255, 162, 247);
+}
+
+
+@keyframes fade-in {  
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    100% {opacity: 1;}
+}  
+
+.click1{
+    text-align: center;
+    animation:fade-in 0.2s;
+    animation-duration: 1s;
+}
+
+
+
+
+
+.selection1
+    a{color:rgb(255, 255, 255);background-color:rgb(252, 137, 242);text-decoration: none;}
+    a:visited{color:rgb(255, 255, 255);background-color:rgb(252, 137, 242);text-decoration: none;}
+    a:hover {color:rgb(255, 255, 255);background:rgb(224, 67, 211);text-decoration: none;}
+    a:active {color:rgb(255, 255, 255);background:rgb(224, 67, 211);text-decoration: none;}
+.selection1{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    
+    font-style: italic;
+    text-align: center;
+    animation:fade-in 0.2s;
+    animation-duration: 1s;
+}
+
+
+.selection2
+    a{color:rgb(255, 255, 255);text-decoration: none;}
+    a:visited{color:rgb(255, 255, 255);text-decoration: none;}
+    a:hover {color:rgb(255, 255, 255);background:rgb(224, 67, 211);text-decoration: none;}
+    a:active {color:rgb(255, 255, 255);background:rgb(224, 67, 211);text-decoration: none;}
+.selection2{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;  
+    font-style: italic;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    animation:fade-in 0.2s;
+    animation-duration: 1s;
+}
+    
+
+
+
+
+.error{
+    text-align: center;
+    font-size: 40px;
+    position:absolute;
+    font-family:sans-serif;
+    font-style:italic;
+    font-weight: bold;
+    color:rgb(252, 85, 85);
+    animation:fade-in 0.4s infinite;
+    
+}
+
+@keyframes fade-in {  
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}  
+
+
+.margin{
+    position:absolute;
+    z-index: -1;
+    margin-left: 10px;
+    margin-right:30px;
+
+}
+
+.sign{
+    text-align: center;
+    font-size: 25px;
+    font-family:sans-serif;
+    font-style:italic;
+    font-weight: bold;
+    color:  rgb(255, 162, 247);
+    animation:fade-in 0.2s;
+    animation-duration: 1s;
+}
